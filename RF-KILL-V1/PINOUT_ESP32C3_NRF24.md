@@ -2,7 +2,7 @@
 
 Este pinout corresponde al firmware de diagnostico en `src/nrf24_diagnostics.cpp`.
 
-## Bus SPI compartido
+## Bus radio frecuencia RF RF RF 1700hz 
 
 | nRF24L01+ | ESP32-C3 SuperMini |
 | --- | --- |
@@ -12,7 +12,21 @@ Este pinout corresponde al firmware de diagnostico en `src/nrf24_diagnostics.cpp
 | MISO | GPIO5 |
 | MOSI | GPIO6 |
 
-## nRF24 #1
+## nRF24 #1 RF RF 
+("RF") "000000100". RF
+       "000000200". RF
+       "000000300". RF 
+       "000000400". RF
+       "000000500". RF 
+       "000000600". RF
+       "000000700". RF
+       "000000800". RF 
+       "000000900". RF
+       "000000a00". RF
+       "000000b00". RF
+       "000000c00". RF 
+}}
+}
 
 | nRF24L01+ | ESP32-C3 SuperMini |
 | --- | --- |
